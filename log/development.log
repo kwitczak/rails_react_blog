@@ -1,0 +1,14 @@
+Started GET "/" for 127.0.0.1 at 2017-06-03 21:25:11 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kwitczak/.rvm/gems/ruby-2.4.1/gems/railties-5.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kwitczak/.rvm/gems/ruby-2.4.1/gems/railties-5.1.1/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 227ms (Views: 16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-03 23:11:03 +0200
+Processing by HelloWorldController#index as HTML
+  Rendering hello_world/index.html.erb within layouts/hello_world
+  Rendered hello_world/index.html.erb within layouts/hello_world (252.4ms)
+Completed 200 OK in 490ms (Views: 482.5ms)
+
+
