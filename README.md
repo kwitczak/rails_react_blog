@@ -46,6 +46,17 @@
     ```
     sudo apt-get install postgresql postgresql-contrib libpq-dev
     ```
+1. Create postgres **user** for the application (username and password are only example)
+    ```
+    sudo sudo -u postgres psql
+    
+    CREATE USER username SUPERUSER PASSWORD 'password';
+    \q
+    
+    echo "export USERNAME=username" >> ~/.profile
+    echo "export PASSWORD=password" >> ~/.profile
+    . ~/.profile
+    ```
 
 ## Application Setup
 1. Clone repository
