@@ -3,7 +3,7 @@
     "postinstall": "cd client && yarn install"
   },
 
-  "name": "blog2",
+  "name": "blog",
   "private": true,
   "dependencies": {}
 }
